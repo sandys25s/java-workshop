@@ -28,4 +28,6 @@ public class Building {
             floor = afloor
         }
 
-        public String getfloor(double )
+        public String getfloor(double afloor){
+            
+        }
