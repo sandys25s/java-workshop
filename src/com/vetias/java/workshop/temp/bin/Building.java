@@ -29,5 +29,22 @@ public class Building {
         }
 
         public String getfloor(double afloor){
-            
+
         }
+
+        public double getLocaldatetime() {
+            return localdatetime;
+        }
+
+        public void setLocaldatetime(double localdatetime) {
+            this.localdatetime = localdatetime;
+        }
+
+        public double getOpendatetime() {
+            return opendatetime;
+        }
+
+        public void setOpendatetime(double opendatetime) {
+            this.opendatetime = opendatetime;
+        }
+
