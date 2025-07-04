@@ -5,6 +5,7 @@ public class Academic extends Building {
     private int isnumberofrooms;
     public void setIslibaryavailable(boolean islibaryavailable) {
         this.islibaryavailable = islibaryavailable;
+        }
     }
     public void setIsnumberofrooms(int isnumberofrooms) {
         this.isnumberofrooms = isnumberofrooms;
@@ -22,4 +23,3 @@ public class Academic extends Building {
         System.out.println("Library Available: " + islibaryavailable);
         System.out.println("Number of Rooms: " + isnumberofrooms);
     }
-}
