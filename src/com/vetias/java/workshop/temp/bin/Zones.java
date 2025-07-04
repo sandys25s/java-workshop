@@ -29,4 +29,12 @@ public class Zones {
     public void setArea(double area) {
         this.area = area;
     }
-}
+    @Override
+    public void printDetails() {
+        super.printDetails();
+        System.out.println("Zone Name: " + name);
+        System.out.println("Zone ID: " + zone);
+        System.out.println("Zone Type: " + type);
+        System.out.println("Zone Area: " + area);
+    }
+    }

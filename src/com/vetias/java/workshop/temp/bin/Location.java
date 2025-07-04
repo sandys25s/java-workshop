@@ -10,6 +10,7 @@ public class Location {
         private String postalcode;
         public string getName() {
             return name;
+                }
         }
         public void setName(string name) {
             this.name = name;
@@ -51,4 +52,15 @@ public class Location {
             this.postalcode = postalcode;
         }
 
+        @Override
+        public String toString() {
+            return "Location{" +
+                    "name='" + name + '\'' +
+                    ", longtitude=" + longtitude +
+                    ", altitude=" + altitude +
+                    ", country='" + country + '\'' +
+                    ", city='" + city + '\'' +
+                    ", adress='" + adress + '\'' +
+                    ", postalcode='" + postalcode + '\'' +
+                    '}';
         }
