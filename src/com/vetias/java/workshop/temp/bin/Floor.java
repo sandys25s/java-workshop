@@ -18,7 +18,8 @@ public class Floor {
 
     @Override
     public void printDetails(){
-        super.printDetails()
+        super.printDetails();
+        System.out.println()
     }
  
 }

@@ -15,4 +15,11 @@ public class Academic extends Building {
     public int getIsnumberofrooms() {
         return isnumberofrooms;
     }
+
+    @Override
+    public void printDetails() {
+        super.printDetails();
+        System.out.println("Library Available: " + islibaryavailable);
+        System.out.println("Number of Rooms: " + isnumberofrooms);
+    }
 }
