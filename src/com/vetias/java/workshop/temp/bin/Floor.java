@@ -1,6 +1,7 @@
 package com.vetias.java.workshop.temp.bin;
 
 public class Floor {
+
     private String name;
     private int number;
     public String getName() {
@@ -16,9 +17,7 @@ public class Floor {
         this.number = number;
     }
 
-    @Override
     public void printDetails(){
-        super.printDetails();
         System.out.println();
     }
  

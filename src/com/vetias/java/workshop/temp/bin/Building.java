@@ -1,50 +1,55 @@
 package com.vetias.java.workshop.temp.bin;
 
 public class Building {
-        private String name;
-        private double area;
-        private double floor;
-        private double localdatetime;
-        private double opendatetime;
+    private String name;
+    private double area;
+    private double floor;
+    private double localdatetime;
+    private double opendatetime;
+
+    public void setName(String aname) {
+        name = aname;
     }
- 
-        public String setname(String aname){
-            name = aname
-        }
 
-        public String getname(String aname){
-            return name;
-        }
-        
-        public String setarea(double aarea){
-            area = aarea
-        }
+    public String getName() {
+        return name;
+    }
 
-        public String getarea(double aarea){
-            return area;
-        }
+    public void setArea(double aarea) {
+        area = aarea;
+    }
 
-        public String setfloor(double afloor){
-            floor = afloor
-        }
+    public double getArea() {
+        return area;
+    }
 
-        public String getfloor(double afloor){
+    public void setFloor(double afloor) {
+        floor = afloor;
+    }
 
-        }
+    public double getFloor() {
+        return floor;
+    }
 
-        public double getLocaldatetime() {
-            return localdatetime;
-        }
+    public double getLocaldatetime() {
+        return localdatetime;
+    }
 
-        public void setLocaldatetime(double localdatetime) {
-            this.localdatetime = localdatetime;
-        }
+    public void setLocaldatetime(double localdatetime) {
+        this.localdatetime = localdatetime;
+    }
 
-        public double getOpendatetime() {
-            return opendatetime;
-        }
+    public double getOpendatetime() {
+        return opendatetime;
+    }
 
-        public void setOpendatetime(double opendatetime) {
-            this.opendatetime = opendatetime;
-        }
+    public void setOpendatetime(double opendatetime) {
+        this.opendatetime = opendatetime;
+    }
+
+    public void printDetails() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'printDetails'");
+    }
+}
 

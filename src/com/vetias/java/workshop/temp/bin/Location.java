@@ -8,9 +8,9 @@ public class Location {
         private String city;
         private String adress;
         private String postalcode;
+    
         public string getName() {
             return name;
-                }
         }
         public void setName(string name) {
             this.name = name;
@@ -64,3 +64,4 @@ public class Location {
                     ", postalcode='" + postalcode + '\'' +
                     '}';
         }
+    }

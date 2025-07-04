@@ -1,8 +1,8 @@
 package com.vetias.java.workshop.temp.bin;
 
 public class Zones {
-    private String name
-    private double zone id;
+    private String name;
+    private double zoneId;
     private String type;
     private double area;
     public String getName() {
@@ -11,11 +11,11 @@ public class Zones {
     public void setName(String name) {
         this.name = name;
     }
-    public double getZone() {
-        return zone;
+    public double getZoneId() {
+        return zoneId;
     }
-    public void setZone(double zone) {
-        this.zone = zone;
+    public void setZoneId(double zoneId) {
+        this.zoneId = zoneId;
     }
     public String getType() {
         return type;
@@ -29,12 +29,10 @@ public class Zones {
     public void setArea(double area) {
         this.area = area;
     }
-    @Override
-    public void printDetails() {
-        super.printDetails();
-        System.out.println("Zone Name: " + name);
-        System.out.println("Zone ID: " + zone);
-        System.out.println("Zone Type: " + type);
-        System.out.println("Zone Area: " + area);
+    public static void printDetails(Zones zones) {
+        System.out.println("Zone Name: " + zones.name);
+        System.out.println("Zone ID: " + zones.zoneId);
+        System.out.println("Zone Type: " + zones.type);
+        System.out.println("Zone Area: " + zones.area);
     }
-    }
+}
