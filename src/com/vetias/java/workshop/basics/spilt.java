@@ -3,10 +3,11 @@ public class spilt {
 
     public static void main(String[] args) {
         String sentence = "this is a program shows how to convert a string to upper case";
-        String[] word = sentence.split(" ");
-        for (String w : word) {
-            String upperCaseWord = w.toUpperCase();
-            System.out.println((upperCaseWord));
-        }
+        String[] sentences = sentence.split("\\.");
+        System.out.println("total sentences: " + sentences.length);
+        String[] words = sentence.split(" ");
+        System.out.println("total words: " + words.length);
+        String[] chars = sentence.split("");
+        System.out.println("total characters: " + chars.length);
     }
 }

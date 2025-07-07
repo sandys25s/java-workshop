@@ -7,12 +7,7 @@ public class upper {
         String fullName = firstName + " " + lastName;
         String upperCaseFullName = fullName.toUpperCase();
         System.out.println("Full Name in Upper Case: " + upperCaseFullName);
-
-        String sentence ="this is a program shows how to convert a string to upper case";
-        String[] words = sentence.split(" ");
-        for (String word : words) {
-            String upperCaseWord = word.toUpperCase();
-            System.out.println(upperCaseWord);
-        }
+        System.out.println("Total characters in full name: " + upperCaseFullName.length());
+        System.out.println("Total words in full name: " + upperCaseFullName.split(" ").length);
     }
 }
