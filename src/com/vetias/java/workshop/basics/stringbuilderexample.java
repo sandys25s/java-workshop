@@ -11,7 +11,7 @@ public class stringbuilderexample {
         sb.append(" language");
         sb.append(" for");
         sb.append(" enterprise");
-        sb.append(" applications.6t53");
+        sb.append(" applications.");
         System.out.println(sb.toString());                 
     }
 }
