@@ -7,7 +7,7 @@ public class Studentset {
     public static void main(String[] args) {
         Set<Integer> rollnos = new HashSet<Integer>();
 
-        rollnos.add(1); // Corrected: use integers, not strings
+        rollnos.add(1); 
         rollnos.add(2);
         rollnos.add(3);
         rollnos.add(4);
