@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Listexample {
     public static void main(String[] args) {
-        List<String> list = new ArrayList<String>(); // Corrected type
+        List<String> list = new ArrayList<String>();
 
         list.add("Hello");
         list.add("World");
